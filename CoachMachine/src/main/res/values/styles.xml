@@ -1,0 +1,74 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="BaseTheme"/>
+
+	<style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="actionBarStyle">@style/CMActionBar</item>
+		<item name="colorPrimary">@color/primary</item>
+		<item name="colorPrimaryDark">@color/primary_dark</item>
+		<item name="colorAccent">@color/accent</item>
+		<item name="colorControlNormal">@color/primary</item>
+		<item name="colorControlActivated">@color/accent</item>
+		<item name="colorControlHighlight">@color/primary_light</item>
+		<item name="android:activatedBackgroundIndicator">@drawable/activated_background_indicator</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="windowActionBarOverlay">true</item>
+		<item name="android:windowActionBarOverlay">true</item>
+	</style>
+
+	<!-- ActionBar styles -->
+	<style name="CMActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid">
+		<item name="android:background">@color/primary</item>
+		<item name="android:textColorPrimary">@color/icons</item>
+		<item name="android:textColorPrimaryInverse">@color/icons</item>
+		<item name="android:textColor">@color/icons</item>
+		<item name="android:actionMenuTextColor">@color/icons</item>
+		<item name="titleTextColor">@color/icons</item>
+	</style>
+
+	<style name="CMFAB" parent="Widget.Design.FloatingActionButton">
+		<item name="android:layout_marginLeft">0dp</item>
+		<item name="android:layout_marginTop">0dp</item>
+		<item name="android:layout_marginRight">8dp</item>
+		<item name="android:layout_marginBottom">0dp</item>
+	</style>
+
+	<style name="CMHeaderText" parent="TextAppearance.AppCompat.Medium">
+		<item name="android:textColor">@color/icons</item>
+		<item name="android:layout_marginLeft">32dp</item>
+		<item name="android:layout_marginBottom">16dp</item>
+	</style>
+
+	<style name="CMCaption" parent="TextAppearance.AppCompat.Small">
+		<item name="android:textColor">@color/secondary_text</item>
+	</style>
+
+	<style name="CMCaptionHead" parent="TextAppearance.AppCompat.Medium">
+		<item name="android:textColor">@color/primary_text</item>
+	</style>
+
+	<style name="CMEditText" parent="TextAppearance.AppCompat.Medium">
+		<item name="android:textColor">@color/primary_text</item>
+		<item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+	</style>
+
+	<style name="CMEditTitle" parent="TextAppearance.AppCompat.Display1">
+		<item name="android:textColor">@color/primary_text</item>
+		<item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+	</style>
+
+	<style name="CMListTitle" parent="TextAppearance.AppCompat.Medium">
+		<item name="android:textColor">@color/primary_text</item>
+	</style>
+
+	<style name="CMListItem" parent="TextAppearance.AppCompat.Small">
+		<item name="android:textColor">@color/secondary_text</item>
+	</style>
+
+	<style name="CMListItemLayout">
+		<item name="android:padding">@dimen/abc_dropdownitem_text_padding_left</item>
+		<item name="android:background">@color/list_item_bg_db</item>
+	</style>
+</resources>

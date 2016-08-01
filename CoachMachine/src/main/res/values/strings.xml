@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Coach Machine</string>
+
+    <string name="title_workout_list">Moje Coach Machine</string>
+    <string name="title_new_workout">Nový výkon</string>
+
+    <string name="navigation_drawer_open">Otevřít navigační lištu</string>
+    <string name="navigation_drawer_close">Zavřít navigační lištu</string>
+
+    <string name="action_done">Uložit</string>
+    <string name="action_cloud">Připojeno do cloudu</string>
+
+    <string name="network_not_available_title">Nedostupná síť</string>
+    <string name="network_not_available">Není dostupné připojení k síti.</string>
+    <string name="button_ok">OK</string>
+
+    <string name="new_workout_label_title">Název sportovního výkonu</string>
+    <string name="new_workout_label_place">Místo konání</string>
+    <string name="new_workout_label_duration">Délka trvání</string>
+
+    <string name="new_workout_label_origin_cloud_title">Ukládám do cloudu</string>
+    <string name="new_workout_label_origin_cloud_desc">Záznam se uloží do cloudu\na bude tak dostupný i z dalších zařízení.</string>
+
+    <string name="new_workout_label_origin_db_title">Ukládám do zařízení</string>
+    <string name="new_workout_label_origin_db_desc">Záznam se uloží do lokální\ndatabáze vašeho telefonu nebo tabletu.</string>
+
+    <string name="loading">Stahuji výkony</string>
+    <string name="workout_list_nouser">Jako první je třeba vybrat uživatele.</string>
+    <string name="workout_list_empty">V seznamu nemáte žádné záznamy.\nZačněte přidáním nového.\nKlikněte na tlačítko vpravo dole.</string>
+    <string name="workout_list_not_connected">V seznamu nemáte žádné záznamy.\nPřipojte se k internetu pro načtení dat z cloudu nebo začněte přidáním nového.\nKlikněte na tlačítko vpravo dole.</string>
+
+    <string name="new_workout_network_not_available_title">Nedostupná síť</string>
+    <string name="new_workout_network_not_available">Bez připojení k internetu je možné ukládat pouze do lokální databáze.</string>
+
+    <string name="new_workout_error_title_empty">Název nesmí být prázdný</string>
+    <string name="new_workout_error_place_empty">Místo nesmí být prázdné</string>
+    <string name="new_workout_error_duration_empty">Délka trvání nesmí být prázdná</string>
+
+    <string name="error_creating_workout_title">Chyba</string>
+    <string name="error_creating_workout">Nepodařilo se vytvořit záznam v cloudu.</string>
+</resources>

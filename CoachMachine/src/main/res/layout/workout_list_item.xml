@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/CMListItemLayout">
+
+	<TextView android:id="@+id/workout_list_title"
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_alignParentTop="true"
+			  android:layout_alignParentLeft="true"
+			  android:text="Ranní běhání"
+			  style="@style/CMListTitle"
+	/>
+
+	<TextView android:id="@+id/workout_list_place"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:layout_alignParentLeft="true"
+			  android:layout_below="@id/workout_list_title"
+			  android:layout_toLeftOf="@+id/workout_list_duration"
+			  android:text="Obora Hvězda, Praha"
+			  style="@style/CMListItem"/>
+
+	<TextView android:id="@+id/workout_list_duration"
+			  android:layout_width="wrap_content"
+			  android:layout_alignTop="@id/workout_list_place"
+			  android:layout_alignParentRight="true"
+			  android:text="02:25:34"
+			  android:layout_height="wrap_content"
+			  style="@style/CMListItem"/>
+
+</RelativeLayout>

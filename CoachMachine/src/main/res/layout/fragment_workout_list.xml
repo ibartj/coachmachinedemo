@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity$PlaceholderFragment">
+
+    <ListView
+            android:id="@+id/workout_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/primary"
+            android:dividerHeight="1px"
+    />
+
+    <TextView android:id="@+id/workout_list_empty"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:visibility="gone"
+              style="@style/CMListTitle"
+              />
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/new_workout_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_add"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/title_new_workout"
+            style="@style/CMFAB"
+    />
+
+</RelativeLayout>
